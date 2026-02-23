@@ -38,7 +38,7 @@ Additional properties (TODO, proposal):
 
 ## Model (TODO, proposal)
 
-There is not Model type in the AI space yet.
+Model type in the AI space should probably be updated and changed a little bit.
 
 - Name
 - Version

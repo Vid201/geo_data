@@ -10,7 +10,7 @@ These three types form the foundation of the ontology for top AI research papers
 
 ## Paper
 
-The core type is defined in the Geo space.
+The core type is defined in the Geo space. At the moment, there is a custom AI Paper type, but migration will be needed in the future.
 
 Geo Paper Type:
 - Identity

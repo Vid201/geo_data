@@ -6,3 +6,6 @@ This project collects data and publishes it into Geo.
 
 - AI
     - Top AI Papers
+
+- ## Resources
+    - [Geo Tech Demo Repository](https://github.com/geobrowser/geo_tech_demo)

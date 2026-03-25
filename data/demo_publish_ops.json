@@ -1,0 +1,302 @@
+[
+  {
+    "type": "createEntity",
+    "id": "273b015dbe5645759993d3cf5e1901d1",
+    "values": [
+      {
+        "property": "a126ca530c8e48d5b88882c734c38935",
+        "value": {
+          "type": "text",
+          "value": "Kaiming He",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      }
+    ]
+  },
+  {
+    "type": "createRelation",
+    "id": "cbe725d0ffbf4a3c97b55ed61d3c25a2",
+    "entity": "03188f1185584b94b8e0531a15b41844",
+    "from": "273b015dbe5645759993d3cf5e1901d1",
+    "to": "7ed45f2bc48b419e8e4664d5ff680b0d",
+    "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
+  },
+  {
+    "type": "createEntity",
+    "id": "ab3cca666c574205b5072f0d9cb11d63",
+    "values": [
+      {
+        "property": "a126ca530c8e48d5b88882c734c38935",
+        "value": {
+          "type": "text",
+          "value": "Xiangyu Zhang",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      }
+    ]
+  },
+  {
+    "type": "createRelation",
+    "id": "39dce93a09c3442693f11a865b869e0d",
+    "entity": "865ccc135c7c4af98e684a8233fcfbb2",
+    "from": "ab3cca666c574205b5072f0d9cb11d63",
+    "to": "7ed45f2bc48b419e8e4664d5ff680b0d",
+    "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
+  },
+  {
+    "type": "createEntity",
+    "id": "b92395ac555548738a02973f2a996d99",
+    "values": [
+      {
+        "property": "a126ca530c8e48d5b88882c734c38935",
+        "value": {
+          "type": "text",
+          "value": "Shaoqing Ren",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      }
+    ]
+  },
+  {
+    "type": "createRelation",
+    "id": "d738fd4e12a64e58ba5bdf94db7e728d",
+    "entity": "eb198f7ce65e42409bf3b8f5abee3945",
+    "from": "b92395ac555548738a02973f2a996d99",
+    "to": "7ed45f2bc48b419e8e4664d5ff680b0d",
+    "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
+  },
+  {
+    "type": "createEntity",
+    "id": "8c68e008303c4413824c1548a8d757f4",
+    "values": [
+      {
+        "property": "a126ca530c8e48d5b88882c734c38935",
+        "value": {
+          "type": "text",
+          "value": "Jian Sun",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      }
+    ]
+  },
+  {
+    "type": "createRelation",
+    "id": "2479ad2b575a48f99a445220404aa5bf",
+    "entity": "a9c6284c1fbe4a0d85315fd2ba999b0d",
+    "from": "8c68e008303c4413824c1548a8d757f4",
+    "to": "7ed45f2bc48b419e8e4664d5ff680b0d",
+    "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
+  },
+  {
+    "type": "createEntity",
+    "id": "69ef25397668458fb5d04bacf0f304ad",
+    "values": [
+      {
+        "property": "a126ca530c8e48d5b88882c734c38935",
+        "value": {
+          "type": "text",
+          "value": "Alex Krizhevsky",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      }
+    ]
+  },
+  {
+    "type": "createRelation",
+    "id": "05e2783ccc634f0fbbcc1ef8e79099c0",
+    "entity": "f49366077fd84aa592cd72b12bb276df",
+    "from": "69ef25397668458fb5d04bacf0f304ad",
+    "to": "7ed45f2bc48b419e8e4664d5ff680b0d",
+    "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
+  },
+  {
+    "type": "createEntity",
+    "id": "8eeec383a2f4481997b699995f02bf8b",
+    "values": [
+      {
+        "property": "a126ca530c8e48d5b88882c734c38935",
+        "value": {
+          "type": "text",
+          "value": "Ilya Sutskever",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      }
+    ]
+  },
+  {
+    "type": "createRelation",
+    "id": "b08f7087b7814c03be8725021d46203d",
+    "entity": "16a3da9029d443ae82a73bd56a31b7a9",
+    "from": "8eeec383a2f4481997b699995f02bf8b",
+    "to": "7ed45f2bc48b419e8e4664d5ff680b0d",
+    "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
+  },
+  {
+    "type": "createEntity",
+    "id": "3e3281209d674ca0adbd632cd9e647e7",
+    "values": [
+      {
+        "property": "a126ca530c8e48d5b88882c734c38935",
+        "value": {
+          "type": "text",
+          "value": "Geoffrey E. Hinton",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      }
+    ]
+  },
+  {
+    "type": "createRelation",
+    "id": "1d985c810fec4c1c9d028e9d142e7e09",
+    "entity": "903937e53a5d40df9bbd5c9385400292",
+    "from": "3e3281209d674ca0adbd632cd9e647e7",
+    "to": "7ed45f2bc48b419e8e4664d5ff680b0d",
+    "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
+  },
+  {
+    "type": "createEntity",
+    "id": "6522dfaa7e5a427f8139ec605262b9b2",
+    "values": [
+      {
+        "property": "a126ca530c8e48d5b88882c734c38935",
+        "value": {
+          "type": "text",
+          "value": "Deep Residual Learning for Image Recognition",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      },
+      {
+        "property": "9b1f76ff9711404c861e59dc3fa7d037",
+        "value": {
+          "type": "text",
+          "value": "This paper introduced residual learning and deep residual networks (ResNets), enabling training of much deeper networks for image recognition.",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      },
+      {
+        "property": "94e43fe8faf241009eb887ab4f999723",
+        "value": {
+          "type": "date",
+          "value": "2015-12-10"
+        }
+      },
+      {
+        "property": "412ff593e9154012a43d4c27ec5c68b6",
+        "value": {
+          "type": "text",
+          "value": "https://arxiv.org/abs/1512.03385",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      }
+    ]
+  },
+  {
+    "type": "createRelation",
+    "id": "4ddd369beb8a44dba08ce126d4ef6688",
+    "entity": "e92e737c4e6b4c1f8b31d42f21739a1d",
+    "from": "6522dfaa7e5a427f8139ec605262b9b2",
+    "to": "5e24fb52856c4189a9716af4387b1b89",
+    "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
+  },
+  {
+    "type": "createRelation",
+    "id": "333e3ce5e7c642989e90c307af7536d2",
+    "entity": "014be4f02f3642a19a875d1eb28bb877",
+    "from": "6522dfaa7e5a427f8139ec605262b9b2",
+    "to": "273b015dbe5645759993d3cf5e1901d1",
+    "relationType": "91a9e2f6e51a48f7997661de8561b690"
+  },
+  {
+    "type": "createRelation",
+    "id": "56ea441f6cfd411688d220a6a327efc3",
+    "entity": "373c1e972e9d4af1819f9c5ed851629a",
+    "from": "6522dfaa7e5a427f8139ec605262b9b2",
+    "to": "ab3cca666c574205b5072f0d9cb11d63",
+    "relationType": "91a9e2f6e51a48f7997661de8561b690"
+  },
+  {
+    "type": "createRelation",
+    "id": "074f252e1618420ab39cb1e8f803bfdf",
+    "entity": "e0648474dac343989caf87b80352fbde",
+    "from": "6522dfaa7e5a427f8139ec605262b9b2",
+    "to": "b92395ac555548738a02973f2a996d99",
+    "relationType": "91a9e2f6e51a48f7997661de8561b690"
+  },
+  {
+    "type": "createRelation",
+    "id": "a36c84f2cab1445a9d58051e6abdcc37",
+    "entity": "402e889b756a4706ac6b18c65ff78048",
+    "from": "6522dfaa7e5a427f8139ec605262b9b2",
+    "to": "8c68e008303c4413824c1548a8d757f4",
+    "relationType": "91a9e2f6e51a48f7997661de8561b690"
+  },
+  {
+    "type": "createEntity",
+    "id": "6e6a7d8c4a784c3f85fecd5502b488a7",
+    "values": [
+      {
+        "property": "a126ca530c8e48d5b88882c734c38935",
+        "value": {
+          "type": "text",
+          "value": "ImageNet Classification with Deep Convolutional Neural Networks",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      },
+      {
+        "property": "9b1f76ff9711404c861e59dc3fa7d037",
+        "value": {
+          "type": "text",
+          "value": "This paper trained a large deep convolutional network AlexNet on ImageNet and won ILSVRC-2012, sparking the deep learning revolution in computer vision. It introduced ReLU, GPU-trained convnets, and dropout.",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      },
+      {
+        "property": "94e43fe8faf241009eb887ab4f999723",
+        "value": {
+          "type": "date",
+          "value": "2012-12-03"
+        }
+      },
+      {
+        "property": "412ff593e9154012a43d4c27ec5c68b6",
+        "value": {
+          "type": "text",
+          "value": "https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      }
+    ]
+  },
+  {
+    "type": "createRelation",
+    "id": "a27cf59bb0df4bda961edbb3aa474138",
+    "entity": "7591c5f8971944c9b8f1a0ffd00a801b",
+    "from": "6e6a7d8c4a784c3f85fecd5502b488a7",
+    "to": "5e24fb52856c4189a9716af4387b1b89",
+    "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
+  },
+  {
+    "type": "createRelation",
+    "id": "8ed2fba6d88946afafc06f3f93b353e2",
+    "entity": "a02a8d95698a491ba1a1cb1e230f3576",
+    "from": "6e6a7d8c4a784c3f85fecd5502b488a7",
+    "to": "69ef25397668458fb5d04bacf0f304ad",
+    "relationType": "91a9e2f6e51a48f7997661de8561b690"
+  },
+  {
+    "type": "createRelation",
+    "id": "fc2da7ed14724645a849770b0d89ebd3",
+    "entity": "41d7d03f6ba34b6dbb72bd43729a0393",
+    "from": "6e6a7d8c4a784c3f85fecd5502b488a7",
+    "to": "8eeec383a2f4481997b699995f02bf8b",
+    "relationType": "91a9e2f6e51a48f7997661de8561b690"
+  },
+  {
+    "type": "createRelation",
+    "id": "c28cf27ac6a44064bc9f46c545863ead",
+    "entity": "d2b6b56209384ccaa95e691b31490ff0",
+    "from": "6e6a7d8c4a784c3f85fecd5502b488a7",
+    "to": "3e3281209d674ca0adbd632cd9e647e7",
+    "relationType": "91a9e2f6e51a48f7997661de8561b690"
+  }
+]

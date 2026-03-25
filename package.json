@@ -1,0 +1,20 @@
+{
+    "name": "geo-data",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "api": "bun run scripts/01_api.ts",
+        "publish": "bun run scripts/02_publish.ts",
+        "delete": "bun run scripts/03_delete.ts",
+        "delete-entity": "bun run scripts/04_delete_entity.ts"
+    },
+    "dependencies": {
+        "@geoprotocol/geo-sdk": "^0.10.1",
+        "dotenv": "^17.2.4",
+        "viem": "^2.45.3"
+    },
+    "devDependencies": {
+        "@types/node": "^25.2.3",
+        "typescript": "^5.9.3"
+    }
+}

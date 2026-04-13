@@ -175,6 +175,9 @@ function uuidBytesToString(obj: any): string {
 function convertUuidBytes(obj: any): any {
     if (obj === null || obj === undefined) return obj;
     if (typeof obj !== "object") {
+        if (typeof obj === "bigint") {
+            return obj.toString();
+        }
         if (
             typeof obj === "string" &&
             /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(

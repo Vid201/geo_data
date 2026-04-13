@@ -15,6 +15,8 @@ export const TYPES = {
     property: "808a04ceb21c4d888ad12e240613e5ca",  // Property — meta-type for property definitions
     paper: "5e24fb52856c4189a9716af4387b1b89",
     person: "7ed45f2bc48b419e8e4664d5ff680b0d",
+    space: "362c1dbddc6444bba3c4652f38a642d7",
+    project: "484a18c5030a499cb0f2ef588ff16d50",
 };
 
 export const AI_TYPES = {
@@ -27,15 +29,18 @@ export const AI_TYPES = {
 export const PROPERTIES = {
     name: "a126ca530c8e48d5b88882c734c38935",
     description: "9b1f76ff9711404c861e59dc3fa7d037",
-    // cover (TODO)
+    cover: "34f535072e6b42c5a84443981a77cfa2",
+    abstract: "1d274ed52372471289614a50168a37aa",
     authors: "91a9e2f6e51a48f7997661de8561b690",
+    tags: "257090341ba5406f94e4d4af90042fba",
+    web_url: "412ff593e9154012a43d4c27ec5c68b6",
+    doi: "7cb59354e30c48119e99ff62fcf61646",
+    citation_count: "47ee87d8fac606d73e69d4c212804ffb",
+    arxiv: "b1417e3a509237b8f32970b6bf6f227e",
     publish_date: "94e43fe8faf241009eb887ab4f999723",
     published_in: "8b87530a67774d93a9aa8321b7f10019",
-    web_url: "412ff593e9154012a43d4c27ec5c68b6",
-    abstract: "1d274ed52372471289614a50168a37aa",
-    related_topics: "806d52bc27e94c9193c057978b093351",
+    topics: "806d52bc27e94c9193c057978b093351",
     related_spaces: "5b722cd361d6494e88871310566437ba",
-    tags: "257090341ba5406f94e4d4af90042fba",
     // blocks: "beaba5cba67741a8b35377030613fc70",  // Blocks relation — attaches blocks to a parent entity
     // markdown_content: "e3e363d1dd294ccb8e6ff3b76d99bc33",  // Markdown body for a text block
     // data_source_type: "1f69cc9880d444abad493df6a7b15ee4",  // Declares query vs collection data source

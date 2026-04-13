@@ -26,18 +26,15 @@ dotenv.config();
 // Maps JSON field names to their property ID and value type.
 // To add a new property, just add an entry here — no other code changes needed.
 
-const VALUE_PROPERTIES: Record<string, { id: string; type: "text" | "date" }> = {
-    // name: { id: PROPERTIES.name, type: "text" },
-    // description: { id: PROPERTIES.description, type: "text" },
-    // cover (TODO)
-    // authors: { id: PROPERTIES.authors, type: "text" },
+const VALUE_PROPERTIES: Record<string, { id: string; type: "text" | "date" | "integer" }> = {
+    // name: { id: PROPERTIES.name, type: "text" }, -- this is automatically
+    // description: { id: PROPERTIES.description, type: "text" }, -- this is automatically
     publish_date: { id: PROPERTIES.publish_date, type: "date" },
-    // published_in: { id: PROPERTIES.published_in, type: "text" },
     web_url: { id: PROPERTIES.web_url, type: "text" },
-    // abstract: { id: PROPERTIES.abstract, type: "text" },
-    // related_topics: { id: PROPERTIES.related_topics, type: "text" },
-    // related_spaces: { id: PROPERTIES.related_spaces, type: "text" },
-    // tags: { id: PROPERTIES.tags, type: "text" },
+    abstract: { id: PROPERTIES.abstract, type: "text" },
+    doi: { id: PROPERTIES.doi, type: "text" },
+    citation_count: { id: PROPERTIES.citation_count, type: "integer" },
+    arxiv: { id: PROPERTIES.arxiv, type: "text" },
 };
 
 // Build a values array from any entity data object using the registry above.
@@ -58,13 +55,17 @@ type PersonData = {
     name: string;
 };
 
+type ProjectData = {
+    name: string;
+};
+
 type PaperData = {
     name: string;
     description: string;
-    // cover (TODO)
+    cover: string;
     authors: string[];
     publish_date: string;
-    published_in: string;
+    published_in: string[];
     web_url: string;
     abstract: string;
     related_topics: string;
@@ -84,6 +85,10 @@ async function main() {
         fs.readFileSync("./data/people_to_publish.json", "utf-8")
     );
 
+    const projects: ProjectData[] = JSON.parse(
+        fs.readFileSync("./data/project_to_publish.json", "utf-8")
+    );
+
     const papers: PaperData[] = JSON.parse(
         fs.readFileSync("./data/paper_to_publish.json", "utf-8")
     );
@@ -95,7 +100,7 @@ async function main() {
     // ── Step 2: Create all entities ───────────────────────────────────────
     console.log("Step 2: Creating all entities...");
 
-    // First we should handle dependencies (authors, ...)
+    // First we should handle dependencies (authors, related_spaces, published_in, etc.)
     const peopleIdsByName: Record<string, string> = {};
     for (const person of people) {
         const { id, ops } = Graph.createEntity({
@@ -108,9 +113,19 @@ async function main() {
         allOps.push(...ops);
         console.log(`  Created person: "${person.name}" → ${id}`);
     }
+    const projectsIdsByName: Record<string, string> = {};
+    for (const project of projects) {
+        const { id, ops } = Graph.createEntity({
+            name: project.name,
+            types: [TYPES.project],
+            values: extractValues(project),
+        });
+        projectsIdsByName[project.name] = id;
+        allOps.push(...ops);
+        console.log(`  Created project: "${project.name}" → ${id}`);
+    }
 
     const paperIdsByName: Record<string, string> = {};
-
     for (const paper of papers) {
         const values = extractValues(paper);
 
@@ -119,12 +134,20 @@ async function main() {
             .filter((t) => peopleIdsByName[t])
             .map((t) => ({ toEntity: peopleIdsByName[t] }));
 
+        // Build project relations
+        const projectRelations = (paper.published_in || [])
+            .filter((t) => projectsIdsByName[t])
+            .map((t) => ({ toEntity: projectsIdsByName[t] }));
+
         const relations: Record<string, Array<{ toEntity: string }>> = {};
         if (peopleRelations.length > 0) {
             relations[PROPERTIES.authors] = peopleRelations;
         }
+        if (projectRelations.length > 0) {
+            relations[PROPERTIES.published_in] = projectRelations;
+        }
 
-        const { id, ops } = Graph.createEntity({
+        const { id: paperId, ops } = Graph.createEntity({
             name: paper.name,
             description: paper.description,
             types: [TYPES.paper],
@@ -132,9 +155,25 @@ async function main() {
             relations,
         });
 
-        paperIdsByName[paper.name] = id;
+        paperIdsByName[paper.name] = paperId;
         allOps.push(...ops);
-        console.log(`  Created paper: "${paper.name}" → ${id}`);
+        console.log(`  Created paper: "${paper.name}" → ${paperId}`);
+
+        if (paper.cover) {
+            const { id: imageId, ops: imageOps } = await Graph.createImage({
+                url: paper.cover, // must be a URL, not a local path
+                name: `${paper.name} Cover`,
+                network: "TESTNET",
+            });
+            allOps.push(...imageOps);
+            // Attach as cover relation
+            const { ops: coverOps } = Graph.createRelation({
+                fromEntity: paperId,
+                toEntity: imageId,
+                type: PROPERTIES.cover, // need to add cover property ID to constants
+            });
+            allOps.push(...coverOps);
+        }
     }
 
     // ── Step 3: Summary ───────────────────────────────────────────────────────

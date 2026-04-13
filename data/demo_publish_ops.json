@@ -1,7 +1,7 @@
 [
   {
     "type": "createEntity",
-    "id": "273b015dbe5645759993d3cf5e1901d1",
+    "id": "67ec50a47e75407e8e8de240c9983ac8",
     "values": [
       {
         "property": "a126ca530c8e48d5b88882c734c38935",
@@ -15,15 +15,15 @@
   },
   {
     "type": "createRelation",
-    "id": "cbe725d0ffbf4a3c97b55ed61d3c25a2",
-    "entity": "03188f1185584b94b8e0531a15b41844",
-    "from": "273b015dbe5645759993d3cf5e1901d1",
+    "id": "acb3b7de57314878bb8e492154c4c255",
+    "entity": "ea728812d35041ab8b63b087e7af60f7",
+    "from": "67ec50a47e75407e8e8de240c9983ac8",
     "to": "7ed45f2bc48b419e8e4664d5ff680b0d",
     "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
   },
   {
     "type": "createEntity",
-    "id": "ab3cca666c574205b5072f0d9cb11d63",
+    "id": "ac49da126ca94f43984e49d6456fb028",
     "values": [
       {
         "property": "a126ca530c8e48d5b88882c734c38935",
@@ -37,15 +37,15 @@
   },
   {
     "type": "createRelation",
-    "id": "39dce93a09c3442693f11a865b869e0d",
-    "entity": "865ccc135c7c4af98e684a8233fcfbb2",
-    "from": "ab3cca666c574205b5072f0d9cb11d63",
+    "id": "a2c462a3252e4ce79c4f6d6543070850",
+    "entity": "166f06c1e69343a8b707821223c0055a",
+    "from": "ac49da126ca94f43984e49d6456fb028",
     "to": "7ed45f2bc48b419e8e4664d5ff680b0d",
     "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
   },
   {
     "type": "createEntity",
-    "id": "b92395ac555548738a02973f2a996d99",
+    "id": "a9e2fdace5aa4a4baa378e6f6c7e8d32",
     "values": [
       {
         "property": "a126ca530c8e48d5b88882c734c38935",
@@ -59,15 +59,15 @@
   },
   {
     "type": "createRelation",
-    "id": "d738fd4e12a64e58ba5bdf94db7e728d",
-    "entity": "eb198f7ce65e42409bf3b8f5abee3945",
-    "from": "b92395ac555548738a02973f2a996d99",
+    "id": "1089c445517b4c499bc31d82b2605cfe",
+    "entity": "de5b52884a7d4a4e96cff90b8014f780",
+    "from": "a9e2fdace5aa4a4baa378e6f6c7e8d32",
     "to": "7ed45f2bc48b419e8e4664d5ff680b0d",
     "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
   },
   {
     "type": "createEntity",
-    "id": "8c68e008303c4413824c1548a8d757f4",
+    "id": "49fa873f438d41778c71d537488efedb",
     "values": [
       {
         "property": "a126ca530c8e48d5b88882c734c38935",
@@ -81,15 +81,15 @@
   },
   {
     "type": "createRelation",
-    "id": "2479ad2b575a48f99a445220404aa5bf",
-    "entity": "a9c6284c1fbe4a0d85315fd2ba999b0d",
-    "from": "8c68e008303c4413824c1548a8d757f4",
+    "id": "9a5345f8e0814985b2036b05a34b3e20",
+    "entity": "fc81e4c9ed464d96b84db7b8c582d547",
+    "from": "49fa873f438d41778c71d537488efedb",
     "to": "7ed45f2bc48b419e8e4664d5ff680b0d",
     "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
   },
   {
     "type": "createEntity",
-    "id": "69ef25397668458fb5d04bacf0f304ad",
+    "id": "6fc4169179404b309f3faf682ad76aa5",
     "values": [
       {
         "property": "a126ca530c8e48d5b88882c734c38935",
@@ -103,15 +103,15 @@
   },
   {
     "type": "createRelation",
-    "id": "05e2783ccc634f0fbbcc1ef8e79099c0",
-    "entity": "f49366077fd84aa592cd72b12bb276df",
-    "from": "69ef25397668458fb5d04bacf0f304ad",
+    "id": "2daa224a2bae4b6b808e39a4bd59804a",
+    "entity": "c96a84526f8c4cd5a3ddffdd3607b216",
+    "from": "6fc4169179404b309f3faf682ad76aa5",
     "to": "7ed45f2bc48b419e8e4664d5ff680b0d",
     "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
   },
   {
     "type": "createEntity",
-    "id": "8eeec383a2f4481997b699995f02bf8b",
+    "id": "a906543f79fa4da4a18a37402886dc7c",
     "values": [
       {
         "property": "a126ca530c8e48d5b88882c734c38935",
@@ -125,15 +125,15 @@
   },
   {
     "type": "createRelation",
-    "id": "b08f7087b7814c03be8725021d46203d",
-    "entity": "16a3da9029d443ae82a73bd56a31b7a9",
-    "from": "8eeec383a2f4481997b699995f02bf8b",
+    "id": "8160500b59084b72bd98a5371846c916",
+    "entity": "567475fd5b0f47cdb959d0c7f120523a",
+    "from": "a906543f79fa4da4a18a37402886dc7c",
     "to": "7ed45f2bc48b419e8e4664d5ff680b0d",
     "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
   },
   {
     "type": "createEntity",
-    "id": "3e3281209d674ca0adbd632cd9e647e7",
+    "id": "4386a25a316943a3a1f8e82d7e1f2b78",
     "values": [
       {
         "property": "a126ca530c8e48d5b88882c734c38935",
@@ -147,15 +147,59 @@
   },
   {
     "type": "createRelation",
-    "id": "1d985c810fec4c1c9d028e9d142e7e09",
-    "entity": "903937e53a5d40df9bbd5c9385400292",
-    "from": "3e3281209d674ca0adbd632cd9e647e7",
+    "id": "458d78def9084d13bf23d5dd1163156d",
+    "entity": "ff44db5d801b408f9706f75b3f335739",
+    "from": "4386a25a316943a3a1f8e82d7e1f2b78",
     "to": "7ed45f2bc48b419e8e4664d5ff680b0d",
     "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
   },
   {
     "type": "createEntity",
-    "id": "6522dfaa7e5a427f8139ec605262b9b2",
+    "id": "530b859b426a47afa096dfb83a726180",
+    "values": [
+      {
+        "property": "a126ca530c8e48d5b88882c734c38935",
+        "value": {
+          "type": "text",
+          "value": "2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      }
+    ]
+  },
+  {
+    "type": "createRelation",
+    "id": "5acb870256a24543a0de4a62ab4e1b33",
+    "entity": "b72c2adb52aa4a3e843b9bc69d5ee4bb",
+    "from": "530b859b426a47afa096dfb83a726180",
+    "to": "484a18c5030a499cb0f2ef588ff16d50",
+    "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
+  },
+  {
+    "type": "createEntity",
+    "id": "410a38c0362e47e5b4d2db3402915fda",
+    "values": [
+      {
+        "property": "a126ca530c8e48d5b88882c734c38935",
+        "value": {
+          "type": "text",
+          "value": "Advances in Neural Information Processing Systems 25 (NIPS 2012)",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      }
+    ]
+  },
+  {
+    "type": "createRelation",
+    "id": "89c7cf0058b5483bbf5b69e2f990d205",
+    "entity": "31117b97abe54ff9a429a6bc97ea7f35",
+    "from": "410a38c0362e47e5b4d2db3402915fda",
+    "to": "484a18c5030a499cb0f2ef588ff16d50",
+    "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
+  },
+  {
+    "type": "createEntity",
+    "id": "a698ceec103e4a6ea18861cf309846dd",
     "values": [
       {
         "property": "a126ca530c8e48d5b88882c734c38935",
@@ -187,52 +231,143 @@
           "value": "https://arxiv.org/abs/1512.03385",
           "language": "090adac0fca4822e8e719263e67620ec"
         }
+      },
+      {
+        "property": "1d274ed52372471289614a50168a37aa",
+        "value": {
+          "type": "text",
+          "value": "Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers - 8× deeper than VGG nets [40] but still having lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers. The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28% relative improvement on the COCO object detection dataset. Deep residual nets are foundations of our submissions to ILSVRC & COCO 2015 competitions1, where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation.",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      },
+      {
+        "property": "7cb59354e30c48119e99ff62fcf61646",
+        "value": {
+          "type": "text",
+          "value": "https://doi.org/10.1109/CVPR.2016.90",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      },
+      {
+        "property": "47ee87d8fac606d73e69d4c212804ffb",
+        "value": {
+          "type": "integer",
+          "value": "315000"
+        }
+      },
+      {
+        "property": "b1417e3a509237b8f32970b6bf6f227e",
+        "value": {
+          "type": "text",
+          "value": "",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
       }
     ]
   },
   {
     "type": "createRelation",
-    "id": "4ddd369beb8a44dba08ce126d4ef6688",
-    "entity": "e92e737c4e6b4c1f8b31d42f21739a1d",
-    "from": "6522dfaa7e5a427f8139ec605262b9b2",
+    "id": "05b512b0a6e9449b847b9863dd5e4296",
+    "entity": "1cd5490514e540919edd004c59c3345b",
+    "from": "a698ceec103e4a6ea18861cf309846dd",
     "to": "5e24fb52856c4189a9716af4387b1b89",
     "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
   },
   {
     "type": "createRelation",
-    "id": "333e3ce5e7c642989e90c307af7536d2",
-    "entity": "014be4f02f3642a19a875d1eb28bb877",
-    "from": "6522dfaa7e5a427f8139ec605262b9b2",
-    "to": "273b015dbe5645759993d3cf5e1901d1",
+    "id": "12d9a8dc872245fe91d2182bb587eccd",
+    "entity": "1d0dcb35068b4992ba89aa2e0161b140",
+    "from": "a698ceec103e4a6ea18861cf309846dd",
+    "to": "67ec50a47e75407e8e8de240c9983ac8",
     "relationType": "91a9e2f6e51a48f7997661de8561b690"
   },
   {
     "type": "createRelation",
-    "id": "56ea441f6cfd411688d220a6a327efc3",
-    "entity": "373c1e972e9d4af1819f9c5ed851629a",
-    "from": "6522dfaa7e5a427f8139ec605262b9b2",
-    "to": "ab3cca666c574205b5072f0d9cb11d63",
+    "id": "71df82198cb143cca715a8214e806c93",
+    "entity": "1067c6e2eec24dce964491b4c982896f",
+    "from": "a698ceec103e4a6ea18861cf309846dd",
+    "to": "ac49da126ca94f43984e49d6456fb028",
     "relationType": "91a9e2f6e51a48f7997661de8561b690"
   },
   {
     "type": "createRelation",
-    "id": "074f252e1618420ab39cb1e8f803bfdf",
-    "entity": "e0648474dac343989caf87b80352fbde",
-    "from": "6522dfaa7e5a427f8139ec605262b9b2",
-    "to": "b92395ac555548738a02973f2a996d99",
+    "id": "d31ad854aa004a7d8289b9e3e20dc37d",
+    "entity": "4a6b22d1ff9040ee87a8b90e7526f919",
+    "from": "a698ceec103e4a6ea18861cf309846dd",
+    "to": "a9e2fdace5aa4a4baa378e6f6c7e8d32",
     "relationType": "91a9e2f6e51a48f7997661de8561b690"
   },
   {
     "type": "createRelation",
-    "id": "a36c84f2cab1445a9d58051e6abdcc37",
-    "entity": "402e889b756a4706ac6b18c65ff78048",
-    "from": "6522dfaa7e5a427f8139ec605262b9b2",
-    "to": "8c68e008303c4413824c1548a8d757f4",
+    "id": "cdb4aece1a2644079aa1d687add7b485",
+    "entity": "fb61f0c667384dd69fccdd11019a4f73",
+    "from": "a698ceec103e4a6ea18861cf309846dd",
+    "to": "49fa873f438d41778c71d537488efedb",
     "relationType": "91a9e2f6e51a48f7997661de8561b690"
+  },
+  {
+    "type": "createRelation",
+    "id": "ca1c2c8e93a448598c088cecde6de855",
+    "entity": "412ba5c8fd5246b2951ee63599da1ff3",
+    "from": "a698ceec103e4a6ea18861cf309846dd",
+    "to": "530b859b426a47afa096dfb83a726180",
+    "relationType": "8b87530a67774d93a9aa8321b7f10019"
   },
   {
     "type": "createEntity",
-    "id": "6e6a7d8c4a784c3f85fecd5502b488a7",
+    "id": "e4f3b30230a547ab9a01686c2311b34c",
+    "values": [
+      {
+        "property": "a126ca530c8e48d5b88882c734c38935",
+        "value": {
+          "type": "text",
+          "value": "Deep Residual Learning for Image Recognition Cover",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      },
+      {
+        "property": "8a743832c0944a62b6650c3cc2f9c7bc",
+        "value": {
+          "type": "text",
+          "value": "ipfs://bafkreifl4bng5altkmiwqf5yok6qdcs73dwic3o24kksfm4ednml77uroq",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      },
+      {
+        "property": "7f6ad0433e214257a6d48bdad36b1d84",
+        "value": {
+          "type": "float",
+          "value": 929
+        }
+      },
+      {
+        "property": "f7b33e08b76d4190aadacadaa9f561e1",
+        "value": {
+          "type": "float",
+          "value": 427
+        }
+      }
+    ]
+  },
+  {
+    "type": "createRelation",
+    "id": "30866872e96f4ffab8d8d2063a93eae7",
+    "entity": "d0c94946448b4eaf8d966a94e0f23f4e",
+    "from": "e4f3b30230a547ab9a01686c2311b34c",
+    "to": "ba4e41460010499da0a3caaa7f579d0e",
+    "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
+  },
+  {
+    "type": "createRelation",
+    "id": "77bc2a87895949b99d5405380bf2116c",
+    "entity": "2c2145953885415b85bdd3e26054b565",
+    "from": "a698ceec103e4a6ea18861cf309846dd",
+    "to": "e4f3b30230a547ab9a01686c2311b34c",
+    "relationType": "34f535072e6b42c5a84443981a77cfa2"
+  },
+  {
+    "type": "createEntity",
+    "id": "b0058d822f1d4388b23dd396f4376fc9",
     "values": [
       {
         "property": "a126ca530c8e48d5b88882c734c38935",
@@ -264,39 +399,130 @@
           "value": "https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks",
           "language": "090adac0fca4822e8e719263e67620ec"
         }
+      },
+      {
+        "property": "1d274ed52372471289614a50168a37aa",
+        "value": {
+          "type": "text",
+          "value": "We trained a large, deep convolutional neural network to classify the 1.3 million high-resolution images in the LSVRC-2010 ImageNet training set into the 1000 different classes. On the test data, we achieved top-1 and top-5 error rates of 39.7\\% and 18.9\\% which is considerably better than the previous state-of-the-art results. The neural network, which has 60 million parameters and 500,000 neurons, consists of five convolutional layers, some of which are followed by max-pooling layers, and two globally connected layers with a final 1000-way softmax. To make training faster, we used non-saturating neurons and a very efficient GPU implementation of convolutional nets. To reduce overfitting in the globally connected layers we employed a new regularization method that proved to be very effective.",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      },
+      {
+        "property": "7cb59354e30c48119e99ff62fcf61646",
+        "value": {
+          "type": "text",
+          "value": "https://doi.org/10.1145/3065386",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      },
+      {
+        "property": "47ee87d8fac606d73e69d4c212804ffb",
+        "value": {
+          "type": "integer",
+          "value": "154000"
+        }
+      },
+      {
+        "property": "b1417e3a509237b8f32970b6bf6f227e",
+        "value": {
+          "type": "text",
+          "value": "",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
       }
     ]
   },
   {
     "type": "createRelation",
-    "id": "a27cf59bb0df4bda961edbb3aa474138",
-    "entity": "7591c5f8971944c9b8f1a0ffd00a801b",
-    "from": "6e6a7d8c4a784c3f85fecd5502b488a7",
+    "id": "1ae8cf790aef4a47b79149c4f9c4cfa2",
+    "entity": "dfce5117d54f41b7aa43b262422ab59e",
+    "from": "b0058d822f1d4388b23dd396f4376fc9",
     "to": "5e24fb52856c4189a9716af4387b1b89",
     "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
   },
   {
     "type": "createRelation",
-    "id": "8ed2fba6d88946afafc06f3f93b353e2",
-    "entity": "a02a8d95698a491ba1a1cb1e230f3576",
-    "from": "6e6a7d8c4a784c3f85fecd5502b488a7",
-    "to": "69ef25397668458fb5d04bacf0f304ad",
+    "id": "b9642ac899454b688bd9f4c173e17280",
+    "entity": "335dd31f0f114b83b3908f7fbcd8b6a8",
+    "from": "b0058d822f1d4388b23dd396f4376fc9",
+    "to": "6fc4169179404b309f3faf682ad76aa5",
     "relationType": "91a9e2f6e51a48f7997661de8561b690"
   },
   {
     "type": "createRelation",
-    "id": "fc2da7ed14724645a849770b0d89ebd3",
-    "entity": "41d7d03f6ba34b6dbb72bd43729a0393",
-    "from": "6e6a7d8c4a784c3f85fecd5502b488a7",
-    "to": "8eeec383a2f4481997b699995f02bf8b",
+    "id": "2116ec875bcd4fcbb74f2ae963587e74",
+    "entity": "77efe0e7b97649e5a5332c4b3444dc68",
+    "from": "b0058d822f1d4388b23dd396f4376fc9",
+    "to": "a906543f79fa4da4a18a37402886dc7c",
     "relationType": "91a9e2f6e51a48f7997661de8561b690"
   },
   {
     "type": "createRelation",
-    "id": "c28cf27ac6a44064bc9f46c545863ead",
-    "entity": "d2b6b56209384ccaa95e691b31490ff0",
-    "from": "6e6a7d8c4a784c3f85fecd5502b488a7",
-    "to": "3e3281209d674ca0adbd632cd9e647e7",
+    "id": "2012661d9ec1475b84ca764b8f7d1ddc",
+    "entity": "4054b78021024547b623689ee46ba948",
+    "from": "b0058d822f1d4388b23dd396f4376fc9",
+    "to": "4386a25a316943a3a1f8e82d7e1f2b78",
     "relationType": "91a9e2f6e51a48f7997661de8561b690"
+  },
+  {
+    "type": "createRelation",
+    "id": "6e34585d2d184583bd3c3c087d053dc3",
+    "entity": "c64f3be850fc4f998abae7ffe79e4e77",
+    "from": "b0058d822f1d4388b23dd396f4376fc9",
+    "to": "410a38c0362e47e5b4d2db3402915fda",
+    "relationType": "8b87530a67774d93a9aa8321b7f10019"
+  },
+  {
+    "type": "createEntity",
+    "id": "2e8ab1afe143421a88ef8dc2bc085c9d",
+    "values": [
+      {
+        "property": "a126ca530c8e48d5b88882c734c38935",
+        "value": {
+          "type": "text",
+          "value": "ImageNet Classification with Deep Convolutional Neural Networks Cover",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      },
+      {
+        "property": "8a743832c0944a62b6650c3cc2f9c7bc",
+        "value": {
+          "type": "text",
+          "value": "ipfs://bafkreia5pf7263glmuwjllymiekgsy4n4xknl2dkn4soakkwxtgoknj23a",
+          "language": "090adac0fca4822e8e719263e67620ec"
+        }
+      },
+      {
+        "property": "7f6ad0433e214257a6d48bdad36b1d84",
+        "value": {
+          "type": "float",
+          "value": 348
+        }
+      },
+      {
+        "property": "f7b33e08b76d4190aadacadaa9f561e1",
+        "value": {
+          "type": "float",
+          "value": 973
+        }
+      }
+    ]
+  },
+  {
+    "type": "createRelation",
+    "id": "57b19d2573334059ad4f3e657d3cb113",
+    "entity": "86afbbad61954647af529211ab09ad24",
+    "from": "2e8ab1afe143421a88ef8dc2bc085c9d",
+    "to": "ba4e41460010499da0a3caaa7f579d0e",
+    "relationType": "8f151ba4de204e3c9cb499ddf96f48f1"
+  },
+  {
+    "type": "createRelation",
+    "id": "923c34585ab34b33af40ee522d5657f8",
+    "entity": "0f4e191e6e6449189132033951fbcf60",
+    "from": "b0058d822f1d4388b23dd396f4376fc9",
+    "to": "2e8ab1afe143421a88ef8dc2bc085c9d",
+    "relationType": "34f535072e6b42c5a84443981a77cfa2"
   }
 ]
